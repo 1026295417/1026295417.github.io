@@ -234,6 +234,144 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://gitee.com/zhq888888/qq1026295417.git/2019/11/09/Git%E6%95%99%E7%A8%8B/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="张海清">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="海晏河清，学习工作站">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/11/09/Git%E6%95%99%E7%A8%8B/" itemprop="url">Git教程</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-11-09T21:41:33+08:00">
+                2019-11-09
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>将本地文件夹添加到Git仓库</p>
+<p>1、（先进入项目文件夹）通过命令 git init 把这个目录变成git可以管理的仓库</p>
+<p>git init<br>2、把文件添加到版本库中，使用命令 git add .添加到暂存区里面去，不要忘记后面的小数点“.”，意为添加文件夹下的所有文件</p>
+<p>git add .<br>3、用命令 git commit告诉Git，把文件提交到仓库。引号内为提交说明</p>
+<p>git commit -m ‘first commit’<br>4、关联到远程库</p>
+<p>git remote add origin 你的远程库地址<br>如：</p>
+<p>git remote add origin <a href="https://github.com/githubusername/demo.git" target="_blank" rel="noopener">https://github.com/githubusername/demo.git</a><br>5、获取远程库与本地同步合并（如果远程库不为空必须做这一步，否则后面的提交会失败）</p>
+<p>git pull –rebase origin master<br>6、把本地库的内容推送到远程，使用 git push命令，实际上是把当前分支master推送到远程。执行此命令后会要求输入用户名、密码，验证通过后即开始上传。</p>
+<p>git push -u origin master<br>*、状态查询命令</p>
+<p>git status<br>git查看远程仓库地址命令</p>
+<p>git remote -v</p>
+<p>如果想要修改远程仓库地址：</p>
+<p>$ git remote set-url origin <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a>:mkl34367803/WebAjax.git</p>
+<p>然后再push：</p>
+<p>$ git push origin master</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+	<!-- 本文结束标记 -->
+	<div>
+	
+	</div>
+<!-- 本文结束标记END -->
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://gitee.com/zhq888888/qq1026295417.git/2019/11/09/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -535,7 +673,7 @@
               
                 <a href="/archives/%20%7C%7C%20archive">
               
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -631,7 +769,7 @@
     <!-- 博客字数统计 -->
     <span class="site-pv">
       <i class="fa fa-pencil"></i>
-      博客全站共： <span class="post-count">2.4k</span> 字
+      博客全站共： <span class="post-count">2.7k</span> 字
     </span>
 </div>
 <!-- 新增访客统计代码 END-->

@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Git教程</title>
+    <url>/2019/11/09/Git%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<p>将本地文件夹添加到Git仓库</p>
+<p>1、（先进入项目文件夹）通过命令 git init 把这个目录变成git可以管理的仓库</p>
+<p>git init<br>2、把文件添加到版本库中，使用命令 git add .添加到暂存区里面去，不要忘记后面的小数点“.”，意为添加文件夹下的所有文件</p>
+<p>git add .<br>3、用命令 git commit告诉Git，把文件提交到仓库。引号内为提交说明</p>
+<p>git commit -m ‘first commit’<br>4、关联到远程库</p>
+<p>git remote add origin 你的远程库地址<br>如：</p>
+<p>git remote add origin <a href="https://github.com/githubusername/demo.git" target="_blank" rel="noopener">https://github.com/githubusername/demo.git</a><br>5、获取远程库与本地同步合并（如果远程库不为空必须做这一步，否则后面的提交会失败）</p>
+<p>git pull –rebase origin master<br>6、把本地库的内容推送到远程，使用 git push命令，实际上是把当前分支master推送到远程。执行此命令后会要求输入用户名、密码，验证通过后即开始上传。</p>
+<p>git push -u origin master<br>*、状态查询命令</p>
+<p>git status<br>git查看远程仓库地址命令</p>
+<p>git remote -v</p>
+<p>如果想要修改远程仓库地址：</p>
+<p>$ git remote set-url origin <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a>:mkl34367803/WebAjax.git</p>
+<p>然后再push：</p>
+<p>$ git push origin master</p>
+]]></content>
+  </entry>
+  <entry>
     <title>hexo博客搭建教程</title>
     <url>/2019/11/09/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/</url>
     <content><![CDATA[<p>###</p>
